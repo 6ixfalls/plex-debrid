@@ -1,3 +1,4 @@
 #!/usr/bin/with-contenv bash
 
+XDG_CONFIG_HOME=/config
 /rclone-linux mount realdebrid: /realdebrid --dir-cache-time 10s --allow-other
