@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+echo "\
+    fuse3" >> /mod-repo-packages-to-install.list
