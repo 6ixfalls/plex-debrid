@@ -1,5 +1,5 @@
 ## Buildstage ##
-FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as buildstage
+FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as buildstage
 
 RUN \
   echo "**** install packages ****" && \
